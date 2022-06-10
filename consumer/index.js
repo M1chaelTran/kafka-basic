@@ -13,7 +13,7 @@ consumer.connect();
 
 consumer
   .on("ready", () => {
-    consumer.subscribe(["test"]);
+    consumer.subscribe(["todo"]);
     consumer.consume();
   })
   .on("data", function (data) {

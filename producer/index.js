@@ -7,7 +7,7 @@ const stream = Kafka.Producer.createWriteStream(
   },
   {},
   {
-    topic: "test",
+    topic: "todo",
   }
 );
 
